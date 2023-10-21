@@ -3,3 +3,5 @@
 ################################################################################
 
 /azure-ad-webapi/.vs
+/azure-ad-webapi/bin/Debug/net6.0
+/azure-ad-webapi/obj
