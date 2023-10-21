@@ -1,9 +1,11 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AzureAdWebApi.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Authorize]
+    [Route("api/[controller]")]
     public class EmployeeController : ControllerBase
     {
         private readonly ILogger<EmployeeController> _logger;
@@ -20,7 +22,8 @@ namespace AzureAdWebApi.Controllers
             {
                 EmpId = index,
                 Name = "Employee" + index,
-                Salary = 10000
+                Salary = 10000,
+                Summary = "test azure ad"
             }).ToArray();
         }
     }
