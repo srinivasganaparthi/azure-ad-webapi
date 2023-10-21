@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure-Ad-WebApi", "Azure-Ad-WebApi.csproj", "{33EF38F8-1A4B-4D97-B404-471FDD92385B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33EF38F8-1A4B-4D97-B404-471FDD92385B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33EF38F8-1A4B-4D97-B404-471FDD92385B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33EF38F8-1A4B-4D97-B404-471FDD92385B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33EF38F8-1A4B-4D97-B404-471FDD92385B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C894EE5-11D2-442E-A656-8A5F700496A2}
+	EndGlobalSection
+EndGlobal
